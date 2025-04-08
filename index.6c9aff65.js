@@ -1,0 +1,2 @@
+var e=document.getElementById("page-body"),o=document.querySelector(".icon--menu--open"),n=document.querySelector(".icon--menu--close");function d(){e.classList.remove("page__body--overflow-hidden"),e.classList.add("page__body--overflow-auto")}function t(){e.classList.add("page__body--overflow-hidden"),e.classList.remove("page__body--overflow-auto")}o.addEventListener("click",t),n.addEventListener("click",d),window.addEventListener("hashchange",function(){"#menu"===location.hash?t():d()});
+//# sourceMappingURL=index.6c9aff65.js.map
